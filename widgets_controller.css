@@ -1,0 +1,16 @@
+/* CSS Document */
+
+div.widgets_controller_box.none { display:none; }
+label.manage_label, div.widgets_controller_box label.label { font-size:11px; font-weight:bold; text-transform:uppercase; margin-left:5px; }
+label.manage_label { color:#F77322; }
+div.widgets_controller_box label.label.cat { color:#187AEC; }
+div.widgets_controller_box label.label.page { color:#569E26; }
+.wp-admin select.list { height:auto; width:100%; margin:0 0 10px 0; }
+.wp-admin select.list option span { color:#569E26; }
+.wp-admin select.list option:first-child { width:65%; }
+.wp-admin select.list.none { display:none; }
+.wp-admin select.list.general { background:url(img/home.png) no-repeat right top #fff; }
+.wp-admin select.list.category { background:url(img/categories.png) no-repeat right top #fff; }
+.wp-admin select.list.posts { background:url(img/posts.png) no-repeat right top #fff; }
+.wp-admin select.list.pages { background:url(img/pages.png) no-repeat right top #fff; }
+div.widgets_controller_box img.loading { vertical-align:middle; margin-left:10px; }
